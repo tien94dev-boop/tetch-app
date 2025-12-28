@@ -1,5 +1,5 @@
 import { Covered_By_Your_Grace, Geist, Geist_Mono, Inter, Oswald } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import { UserProvider } from "@/provider/useProvider"
 import Header from "@/components/layout/header"
 
@@ -47,7 +47,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${oswald.variable} ${inter.variable} ${covered.variable} antialiased max-w-[1440px] mx-auto`}>
         <UserProvider>
-            {/* <Header></Header> */}
+            <Header></Header>
             {children}
         </UserProvider>
       </body>
