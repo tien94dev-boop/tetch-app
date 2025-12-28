@@ -93,7 +93,6 @@ export default function Home() {
       <div className="grid grid-cols-12 gap-4 bg-gray-100 text-gray-600 font-oswald">
         <div className="col-span-4 bg-gray-600 text-white p-8 ">
           <Info />
-          haha
           <div className="pb-10 flex flex-col gap-12">
             {features.map((feature, index) => {
               return <Feature key={index} feature={feature} />
