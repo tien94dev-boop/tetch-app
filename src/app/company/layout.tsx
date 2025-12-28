@@ -1,5 +1,4 @@
 import { Geist, Geist_Mono, Oswald } from "next/font/google";
-import "./globals.css";
 import { UserProvider } from "@/provider/useProvider"
 
 const oswald = Oswald({
