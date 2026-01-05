@@ -13,7 +13,7 @@ export default function Layout({
     children:React.ReactNode
  }>) {
     return (
-        <div className="antialiased max-w-[1440px] mx-auto font-inter">
+        <div className="antialiased max-w-[1440px] mx-auto font-inter w-full">
             <Header/>
             <Navbar/>
             {children}

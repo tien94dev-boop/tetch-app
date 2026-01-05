@@ -47,7 +47,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${oswald.variable} ${inter.variable} ${covered.variable} antialiased max-w-[1440px] mx-auto`}>
         <UserProvider>
-            <Header></Header>
+            {/* <Header></Header> */}
             {children}
         </UserProvider>
       </body>
