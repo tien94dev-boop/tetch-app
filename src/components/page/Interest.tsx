@@ -13,7 +13,7 @@ function Interest({ interest }: InterestProps) {
             <p className="text-3xl font-bold pb-4">{title}</p>
             <div className="flex flex-col gap-4">
                 <p className="italic" dangerouslySetInnerHTML={{ __html: des }}></p>
-            </div>
+            </div>//
         </div>
     );
 }
